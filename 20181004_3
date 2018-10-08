@@ -1,0 +1,21 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(void)
+{
+    int num,num1,maxium=0;
+    cout << "insert several numbers:" << endl;
+
+     while(cin >> num,num>=0)
+        {
+          if (maxium<num)
+            maxium=num;
+          cout << "insert more numbers:" << endl;
+        }
+    if (num<0)
+        cout << "min:" <<  num <<endl;
+        cout << "max:" <<  maxium <<endl;
+
+    return 0;
+}
