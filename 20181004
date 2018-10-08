@@ -1,0 +1,23 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(void)
+{
+    float num,num1,num2,num3;
+    cout << "insert an integer below for different discount:" << endl;
+    cin >> num;
+    {if (num>=100 && num<300);
+        num=num*0.95;
+        cout << "your total after 5% discount:" << (float)num << endl;}
+    {if (num>=300 && num<=499)
+        num1=num*0.92;
+        cout << "your total after 8% discount:" << (float)num1 << endl;}
+    {if (num>=500 && num<=999)
+        num2=num*0.9;
+        cout << "your total after 10% discount:" << (float)num2 << endl;}
+    {if (num>1000)
+        num3=num*0.85;
+        cout << "your total after 15% discount:" << (float)num3 << endl;}
+    return 0;
+}
