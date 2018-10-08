@@ -1,0 +1,19 @@
+#include <iostream>
+#include <cstdlib>
+using namespace std;
+
+int main(void)
+{
+    int x,y,sum;
+    cout << "insert an integer x&y:" << endl;
+    cin >> x >> y;
+    cout << "your integer x is:" << x << endl;
+    cout << "your integer y is:" << y << endl;
+    if (x%1==0,y%1==0)
+
+        for (x;X=0;x*x*x);
+        sum=;
+        cout << "the sum of the cube between x&y:" << sum << endl;
+
+    return 0;
+}    
